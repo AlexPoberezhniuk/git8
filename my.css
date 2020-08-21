@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0px;
+}
+#wrapper{
+
+}
+#header{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	background: yellow;
+	align-items: center;
+}
+nav{
+	background: green;
+	display: flex;
+}
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	padding: 0;
+	background: #ccc;
+}
+.menu > li{
+	padding: 10px;
+}
+.list{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	list-style: none;
+	justify-content: space-between;  
+}
+.list li{
+	padding: 20px;
+	background: green;
+	flex-grow: 1;
+	color: white;
+}
+.list li:nth-child(odd){
+	background: red;
+}
+.list li:last-child{
+	order: -1;
+}
+.list li:firs-child{
+	flex-grow: -1;
+}
+.block{
+	background: #000;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+}
+.box1{
+	background: yellow;
+}
+.box2{
+	background: blue;
+	flex-grow: 1;
+
+}
+.box3{
+	background: green;
+}
+
+.dady{
+	display: flex;
+	padding: 20px;
+	width: 100%;
+	background: #ccc;
+}
+.boxe1{
+   width: 50%;
+}
+.boxe1>h2{
+	text-align: center;
+}
+
+.listitem{
+	display: flex;
+   list-style: none;
+   flex-wrap: wrap;
+   
+}
+.listitem>li{
+	flex-basis: 50% ;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.itemm1{
+	background: rgba(10, 220, 110);
+	width: 100%;
+	padding-top: 75%;
+	position: relative;
+} 
+.text1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+
